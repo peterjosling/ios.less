@@ -1,5 +1,5 @@
-document.body.addEventListener('click', function(e) {
-	if (e.target.tagName === 'ios-switch') {
+document.addEventListener('click', function(e) {
+	if (e.target.tagName === 'IOS-SWITCH') {
 		var state = e.target.getAttribute('data-active')
 
 		if (state) {
