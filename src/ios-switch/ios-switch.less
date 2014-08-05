@@ -8,7 +8,7 @@ ios-switch {
 	padding: 2px;
 	background-color: #E6E6E6;
 	border-radius: 16px;
-	float: right;
+	display: block;
 
 	.transition(all, ease-in-out, 0.15s);
 
@@ -45,7 +45,10 @@ ios-switch {
 		// Nub
 		&:after {
 			.transform(translateX(18px));
-			float: right;
+		}
+
+		&:active:after {
+			.transform(translateX(11px));
 		}
 
 		// Background
