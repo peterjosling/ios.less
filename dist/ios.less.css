@@ -1,6 +1,6 @@
 ios-switch {
-  width: 46px;
-  height: 28px;
+  width: 48px;
+  height: 27px;
   padding: 2px;
   background-color: #E6E6E6;
   border-radius: 16px;
@@ -13,11 +13,11 @@ ios-switch {
 ios-switch:after {
   content: "";
   display: block;
-  width: 28px;
-  height: 28px;
+  width: 27px;
+  height: 27px;
   border-radius: 14px;
   background-color: #FFF;
-  margin-top: -28px;
+  margin-top: -27px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3), 0 -1px 1px rgba(0, 0, 1, 0.1);
   -webkit-transition: all ease-in-out 0.15s;
   -moz-transition: all ease-in-out 0.15s;
@@ -44,18 +44,18 @@ ios-switch[data-active] {
   background-color: #51d166;
 }
 ios-switch[data-active]:after {
-  -webkit-transform: translateX(18px);
-  -moz-transform: translateX(18px);
-  -o-transform: translateX(18px);
-  -ms-transform: translateX(18px);
-  transform: translateX(18px);
+  -webkit-transform: translateX(21px);
+  -moz-transform: translateX(21px);
+  -o-transform: translateX(21px);
+  -ms-transform: translateX(21px);
+  transform: translateX(21px);
 }
 ios-switch[data-active]:active:after {
-  -webkit-transform: translateX(11px);
-  -moz-transform: translateX(11px);
-  -o-transform: translateX(11px);
-  -ms-transform: translateX(11px);
-  transform: translateX(11px);
+  -webkit-transform: translateX(13px);
+  -moz-transform: translateX(13px);
+  -o-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
 }
 ios-switch[data-active]:before {
   -webkit-transform: scale(0);
