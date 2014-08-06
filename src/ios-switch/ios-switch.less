@@ -3,8 +3,8 @@
 @active-color: #51D166;
 
 ios-switch {
-	width: 46px;
-	height: 28px;
+	width: 48px;
+	height: 27px;
 	padding: 2px;
 	background-color: #E6E6E6;
 	border-radius: 16px;
@@ -16,11 +16,11 @@ ios-switch {
 	&:after {
 		content: "";
 		display: block;
-		width: 28px;
-		height: 28px;
+		width: 27px;
+		height: 27px;
 		border-radius: 14px;
 		background-color: #FFF;
-		margin-top: -28px;
+		margin-top: -27px;
 		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3), 0 -1px 1px rgba(0,0,1,0.1);
 
 		.transition(all, ease-in-out, 0.15s);
@@ -44,11 +44,11 @@ ios-switch {
 
 		// Nub
 		&:after {
-			.transform(translateX(18px));
+			.transform(translateX(21px));
 		}
 
 		&:active:after {
-			.transform(translateX(11px));
+			.transform(translateX(13px));
 		}
 
 		// Background
