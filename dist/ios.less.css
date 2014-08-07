@@ -50,7 +50,8 @@ ios-switch[data-active]:after {
   -ms-transform: translateX(21px);
   transform: translateX(21px);
 }
-ios-switch[data-active]:active:after {
+ios-switch[data-active]:active:after,
+ios-switch[data-active] .active:after {
   -webkit-transform: translateX(13px);
   -moz-transform: translateX(13px);
   -o-transform: translateX(13px);
@@ -64,10 +65,12 @@ ios-switch[data-active]:before {
   -ms-transform: scale(0);
   transform: scale(0);
 }
-ios-switch:active:after {
+ios-switch:active:after,
+ios-switch.active:after {
   width: 35px;
 }
-ios-switch:active:before {
+ios-switch:active:before,
+ios-switch.active:before {
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -o-transform: scale(0);
