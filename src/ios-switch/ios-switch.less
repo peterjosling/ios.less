@@ -47,7 +47,7 @@ ios-switch {
 			.transform(translateX(21px));
 		}
 
-		&:active:after {
+		&:active:after, .active:after {
 			.transform(translateX(13px));
 		}
 
@@ -58,7 +58,7 @@ ios-switch {
 	}
 
 	// In-use state
-	&:active {
+	&:active, &.active {
 		&:after {
 			width: 35px;
 		}
